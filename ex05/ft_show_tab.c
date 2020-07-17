@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_show_tab.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gekang <gekang@student.42.fr>              +#+  +:+       +#+        */
+/*   By: gekang <gekang@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 22:12:31 by gekang            #+#    #+#             */
-/*   Updated: 2020/07/14 14:39:22 by gekang           ###   ########.fr       */
+/*   Updated: 2020/07/17 23:01:51 by gekang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
 
 #include "ft_stock_str.h"
@@ -62,8 +61,6 @@ void	ft_putstr(char *str)
 
 void	ft_show_tab(struct s_stock_str *par)
 {
-	// printf("%s\n", "ft_show_tab has been called successfully.");
-
 	int i;
 
 	i = 0;

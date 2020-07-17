@@ -6,7 +6,7 @@
 /*   By: gekang <gekang@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 20:30:43 by gekang            #+#    #+#             */
-/*   Updated: 2020/07/13 22:28:15 by gekang           ###   ########.fr       */
+/*   Updated: 2020/07/17 22:40:16 by gekang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,10 @@ typedef enum {
 
 # define FALSE false
 # define TRUE true
-
-# define EVEN(number) (number % 2 == 0)
-
 # define EVEN_MSG "I have an even number of arguments.\n"
 # define ODD_MSG "I have an odd number of arguments.\n"
+# define EVEN(NB) (NB % 2 == 0)
 
-# define SUCCESS 0 // can it be something else?
+# define SUCCESS 0
 
 #endif
